@@ -13,7 +13,7 @@
 
 ## 运行
 
-双击同目录的 `纸页文献库.app`。首次运行后，文献库默认保存在：
+从 GitHub 获取源码后，先按下方步骤构建，再双击生成的 `纸页文献库.app`。首次运行后，文献库默认保存在：
 
 `~/Library/Application Support/ZhiyeLibrary/`
 
@@ -24,7 +24,7 @@
 需要 macOS 13 或更新版本、Xcode Command Line Tools。执行：
 
 ```zsh
-./build.command
+zsh build.command
 ```
 
 源码在 `Sources/` 中，使用 SwiftUI、PDFKit、AppKit 和 CryptoKit，无第三方依赖。
